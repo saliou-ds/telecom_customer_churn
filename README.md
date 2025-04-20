@@ -29,7 +29,7 @@ Customer churn significantly impacts subscription-based businesses. Being able t
 
 ## 📂 Project Structure
 
-telecom_customer_churn/ │ ├── data/ # Raw and processed data ├── notebooks/ # EDA and experiments │ ├── churn_analysis.ipynb ├── src/ # Python scripts for modularity │ ├── data_preprocessing.py │ ├── feature_engineering.py │ ├── model_training.py │── evaluation.py │── prediction_service.py ├── models/ # Saved models and metrics ├── dashboard/ # Power BI report (.pbix or images) └── README.md # Project description
+<pre> ```bash telecom_customer_churn/ ├── data/ # Raw and processed data ├── notebooks/ # EDA and experiments │ └── churn_analysis.ipynb ├── src/ # Python scripts for modularity │ ├── data_preprocessing.py │ ├── feature_engineering.py │ ├── model_training.py │ ├── evaluation.py │ └── prediction_service.py ├── models/ # Saved models and metrics ├── dashboard/ # Power BI report (.pbix or images) ├── requirements.txt # Pip dependencies ├── requirements_conda.yml # Conda environment └── README.md # Project description ``` </pre>
 
 ---
 
@@ -72,16 +72,15 @@ The final model results and churn insights are visualized in a **Power BI dashbo
 - Filtering by customer characteristics
 - Churn probability overview per customer segment
 - Highlight of key features influencing churn predictions
-- Easy integration into business workflows (e.g., CRM systems)
 
-*Note: A sample screenshot is available in the `dashboard/` folder.*
+*Note: A screenshot is available in the `dashboard/` folder.*
 
 ---
 
 ## 🚀 How to Run
 
 1. Clone the repository
-2. Install dependencies from `requirements.txt` with pip or `requirements_conda.txt` with conda
+2. Install dependencies from `requirements.txt` with pip or use `environment.yml` to create an operational virtual environment with conda
 3. Run notebook in `notebooks/` or modular scripts in the `src/` folder
 4. Open the `.pbix` file in Power BI Desktop for the dashboard
 
