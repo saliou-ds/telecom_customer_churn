@@ -96,5 +96,5 @@ The final model results and churn insights are visualized in a **Power BI dashbo
 ## 📧 Contact
 
 For questions or collaborations, feel free to reach out:
-**Saliou** – Data Scientist  
+**Saliou Cisse** – Data Scientist  
 🌐 [[LinkedIn](https://www.linkedin.com/in/saliou-cisse-9b9935141/) / [GitHub](https://github.com/saliou-ds)]
